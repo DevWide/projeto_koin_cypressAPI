@@ -27,7 +27,7 @@ jobs:
           pnpm install
 
       - name: Run Cypress tests
-        run: pnpm run test:ci   
+        run: pnpm run test:ci
 
       - name: Generate report
         run: |
@@ -35,7 +35,7 @@ jobs:
           pnpm run report:generate
 
       - name: Upload report artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3   
         with:
           name: cypress-report
           path: cypress/reports/report.html
