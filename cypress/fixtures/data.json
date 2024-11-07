@@ -1,0 +1,18 @@
+{
+    "newPost": {
+      "title": "Meu Post",
+      "body": "Conteúdo do post",
+      "userId": 1
+    },
+    "updatedPost": {
+      "title": "Post Atualizado",
+      "body": "Conteúdo atualizado",
+      "userId": 1
+    },
+    "invalidPost": {
+      "title": "",
+      "body": "",
+      "userId": null
+    }
+  }
+  

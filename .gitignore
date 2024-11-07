@@ -1,0 +1,15 @@
+# Dependências do Node
+node_modules/
+
+# Relatórios do Cypress e Mochawesome
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de lock
+pnpm-lock.yaml
+package-lock.json
